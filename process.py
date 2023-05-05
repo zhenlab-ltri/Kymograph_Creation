@@ -10,6 +10,7 @@ from scipy import signal
 from scipy import stats as st
 
 
+
 def integrateImage(image_list, spline_x, spline_y, t_vals, arc_points):
         """
         Compute numerical integral of pixel intensity in an image along the given spline curve.
